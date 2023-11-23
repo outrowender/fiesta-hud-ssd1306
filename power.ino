@@ -6,6 +6,7 @@ void sleepCan() {
 
 void sleepOled() {
   Serial.println("oled to sleep");
+  drawLogoReverse();
 
   u8g2.sleepOn();
 }
